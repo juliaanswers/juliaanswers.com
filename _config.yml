@@ -1,0 +1,9 @@
+title: Julia Answers
+description: AI-powered phone assistant for small businesses
+url: https://juliaanswers.com
+baseurl: ""
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
