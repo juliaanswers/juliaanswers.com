@@ -1,55 +1,76 @@
 ---
 layout: default
-title: Julia Answers — AI phone assistant for small businesses
+title: Julia Answers — AI phone assistant for small to medium businesses
 description: Julia answers your business calls, checks inventory, takes orders, and keeps you in the loop — so you can focus on your work.
 ---
 
+<!-- Nav -->
+<nav class="fixed top-0 w-full bg-warmgray-50/80 backdrop-blur-sm z-50 border-b border-warmgray-200">
+  <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+    <div class="font-sans font-bold text-xl text-warmgray-800 tracking-tight">Julia<span class="text-sage-600">Answers</span></div>
+    <a href="mailto:hello@juliaanswers.com"
+       class="font-sans text-sm font-semibold bg-sage-600 text-white px-5 py-2.5 rounded-full hover:bg-sage-700 transition">
+      Get early access
+    </a>
+  </div>
+</nav>
+
 <!-- Hero -->
-<section class="min-h-screen flex items-center justify-center px-6">
+<section class="min-h-screen flex items-center justify-center px-6 bg-gradient-to-b from-sage-50 via-warmgray-50 to-warmgray-50 pt-16">
   <div class="max-w-2xl text-center">
-    <h1 class="text-5xl font-bold tracking-tight sm:text-6xl">
-      Your calls answered.<br>Your hands free.
+    <div class="inline-block font-sans text-sm font-medium text-sage-700 bg-sage-100 px-4 py-1.5 rounded-full mb-8">
+      Currently in private beta
+    </div>
+    <h1 class="font-sans text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl text-warmgray-900">
+      Your calls answered.<br>
+      <span class="text-sage-600">Your hands free.</span>
     </h1>
-    <p class="mt-6 text-xl text-gray-600 leading-relaxed">
-      Julia is an AI phone assistant that answers calls for your small business.
+    <p class="mt-8 text-xl text-warmgray-500 leading-relaxed max-w-xl mx-auto">
+      Julia is an AI phone assistant that answers calls for your small to medium business.
       She checks inventory, takes orders, schedules pickups, and texts you a summary
       — so you never miss a customer while you're busy doing actual work.
     </p>
-    <div class="mt-10">
+    <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
       <a href="mailto:hello@juliaanswers.com"
-         class="rounded-lg bg-gray-900 px-8 py-4 text-lg font-semibold text-white hover:bg-gray-700 transition">
+         class="font-sans rounded-full bg-sage-600 px-8 py-4 text-lg font-semibold text-white hover:bg-sage-700 transition shadow-lg shadow-sage-600/25">
         Get early access
       </a>
+      <a href="#how-it-works"
+         class="font-sans rounded-full border-2 border-warmgray-300 px-8 py-4 text-lg font-semibold text-warmgray-600 hover:border-sage-400 hover:text-sage-700 transition">
+        See how it works
+      </a>
     </div>
-    <p class="mt-4 text-sm text-gray-400">Currently in private beta</p>
   </div>
 </section>
 
 <!-- How it works -->
-<section class="bg-gray-50 py-24 px-6">
+<section id="how-it-works" class="py-24 px-6 bg-white">
   <div class="max-w-4xl mx-auto">
-    <h2 class="text-3xl font-bold text-center mb-16">How it works</h2>
+    <div class="text-center mb-16">
+      <p class="font-sans text-sm font-semibold text-sage-600 uppercase tracking-widest mb-3">Simple as 1-2-3</p>
+      <h2 class="font-sans text-4xl font-bold text-warmgray-900">How it works</h2>
+    </div>
     <div class="grid md:grid-cols-3 gap-12">
-      <div>
-        <div class="text-4xl mb-4">1.</div>
-        <h3 class="text-xl font-semibold mb-2">A customer calls</h3>
-        <p class="text-gray-600">
+      <div class="text-center">
+        <div class="w-14 h-14 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center text-2xl font-bold font-sans mx-auto mb-5">1</div>
+        <h3 class="font-sans text-xl font-semibold mb-3 text-warmgray-900">A customer calls</h3>
+        <p class="text-warmgray-500 leading-relaxed">
           Julia picks up, greets them by name if they've called before,
           and asks how she can help.
         </p>
       </div>
-      <div>
-        <div class="text-4xl mb-4">2.</div>
-        <h3 class="text-xl font-semibold mb-2">She handles it</h3>
-        <p class="text-gray-600">
+      <div class="text-center">
+        <div class="w-14 h-14 rounded-2xl bg-sage-100 text-sage-700 flex items-center justify-center text-2xl font-bold font-sans mx-auto mb-5">2</div>
+        <h3 class="font-sans text-xl font-semibold mb-3 text-warmgray-900">She handles it</h3>
+        <p class="text-warmgray-500 leading-relaxed">
           Check what's in stock, place an order, schedule a pickup time
           — Julia takes care of it in the conversation.
         </p>
       </div>
-      <div>
-        <div class="text-4xl mb-4">3.</div>
-        <h3 class="text-xl font-semibold mb-2">You get a text</h3>
-        <p class="text-gray-600">
+      <div class="text-center">
+        <div class="w-14 h-14 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center text-2xl font-bold font-sans mx-auto mb-5">3</div>
+        <h3 class="font-sans text-xl font-semibold mb-3 text-warmgray-900">You get a text</h3>
+        <p class="text-warmgray-500 leading-relaxed">
           After the call, you get an SMS summary with what happened,
           what was ordered, and anything that needs your attention.
         </p>
@@ -59,40 +80,59 @@ description: Julia answers your business calls, checks inventory, takes orders, 
 </section>
 
 <!-- Built for -->
-<section class="py-24 px-6">
-  <div class="max-w-3xl mx-auto text-center">
-    <h2 class="text-3xl font-bold mb-6">Built for businesses where your hands are dirty</h2>
-    <p class="text-xl text-gray-600 leading-relaxed mb-12">
+<section class="py-24 px-6 bg-warmgray-900 text-white">
+  <div class="max-w-4xl mx-auto text-center">
+    <p class="font-sans text-sm font-semibold text-sage-400 uppercase tracking-widest mb-3">Who it's for</p>
+    <h2 class="font-sans text-4xl font-bold mb-6">Built for businesses where<br>your hands are dirty</h2>
+    <p class="text-xl text-warmgray-400 leading-relaxed mb-16 max-w-2xl mx-auto">
       Farms, flower shops, bakeries, market vendors — if you're too busy making
       the thing to answer the phone, Julia's got you covered.
     </p>
-    <div class="grid sm:grid-cols-2 gap-8 text-left">
-      <div class="border rounded-xl p-6">
-        <h3 class="font-semibold text-lg mb-2">Real conversations</h3>
-        <p class="text-gray-600">Not a phone tree. Julia talks like a person, handles follow-up questions, and knows your products.</p>
+    <div class="grid sm:grid-cols-2 gap-6 text-left">
+      <div class="bg-warmgray-800 rounded-2xl p-8 border border-warmgray-700">
+        <div class="text-3xl mb-4">&#x1F399;</div>
+        <h3 class="font-sans font-semibold text-lg mb-2 text-white">Real conversations</h3>
+        <p class="text-warmgray-400">Not a phone tree. Julia talks like a person, handles follow-up questions, and knows your products.</p>
       </div>
-      <div class="border rounded-xl p-6">
-        <h3 class="font-semibold text-lg mb-2">Live inventory</h3>
-        <p class="text-gray-600">Connected to your stock levels. Julia knows what's available and what's sold out — no overselling.</p>
+      <div class="bg-warmgray-800 rounded-2xl p-8 border border-warmgray-700">
+        <div class="text-3xl mb-4">&#x1F4E6;</div>
+        <h3 class="font-sans font-semibold text-lg mb-2 text-white">Live inventory</h3>
+        <p class="text-warmgray-400">Connected to your stock levels. Julia knows what's available and what's sold out — no overselling.</p>
       </div>
-      <div class="border rounded-xl p-6">
-        <h3 class="font-semibold text-lg mb-2">Orders & scheduling</h3>
-        <p class="text-gray-600">Takes orders, books pickup times, and confirms everything with the customer before hanging up.</p>
+      <div class="bg-warmgray-800 rounded-2xl p-8 border border-warmgray-700">
+        <div class="text-3xl mb-4">&#x1F4CB;</div>
+        <h3 class="font-sans font-semibold text-lg mb-2 text-white">Orders & scheduling</h3>
+        <p class="text-warmgray-400">Takes orders, books pickup times, and confirms everything with the customer before hanging up.</p>
       </div>
-      <div class="border rounded-xl p-6">
-        <h3 class="font-semibold text-lg mb-2">Owner dashboard</h3>
-        <p class="text-gray-600">See every call, order, and transcript. Watch live calls as they happen. Stay in control.</p>
+      <div class="bg-warmgray-800 rounded-2xl p-8 border border-warmgray-700">
+        <div class="text-3xl mb-4">&#x1F4CA;</div>
+        <h3 class="font-sans font-semibold text-lg mb-2 text-white">Owner dashboard</h3>
+        <p class="text-warmgray-400">See every call, order, and transcript. Watch live calls as they happen. Stay in control.</p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- CTA -->
+<section class="py-24 px-6 bg-gradient-to-b from-sage-50 to-warmgray-50">
+  <div class="max-w-2xl mx-auto text-center">
+    <h2 class="font-sans text-4xl font-bold text-warmgray-900 mb-6">Ready to stop missing calls?</h2>
+    <p class="text-xl text-warmgray-500 mb-10">
+      Julia is in private beta with a handful of small to medium businesses. Reach out and we'll get you set up.
+    </p>
+    <a href="mailto:hello@juliaanswers.com"
+       class="font-sans rounded-full bg-sage-600 px-8 py-4 text-lg font-semibold text-white hover:bg-sage-700 transition shadow-lg shadow-sage-600/25">
+      Get early access
+    </a>
+  </div>
+</section>
+
 <!-- Footer -->
-<footer class="border-t py-12 px-6">
+<footer class="border-t border-warmgray-200 py-12 px-6 bg-warmgray-50">
   <div class="max-w-4xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
-    <div class="font-semibold text-lg">Julia Answers</div>
-    <div class="text-gray-500 text-sm">
-      <a href="mailto:hello@juliaanswers.com" class="hover:text-gray-900">hello@juliaanswers.com</a>
+    <div class="font-sans font-bold text-lg text-warmgray-800">Julia<span class="text-sage-600">Answers</span></div>
+    <div class="text-warmgray-400 text-sm font-sans">
+      <a href="mailto:hello@juliaanswers.com" class="hover:text-sage-600 transition">hello@juliaanswers.com</a>
     </div>
   </div>
 </footer>
